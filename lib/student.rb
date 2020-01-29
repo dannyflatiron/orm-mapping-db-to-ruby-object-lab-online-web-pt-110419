@@ -91,7 +91,7 @@ class Student
       end.first
   end
 
-  def self.students_in_gradee_X
+  def self.all.students_in_gradee_X
   end
 
   def save
