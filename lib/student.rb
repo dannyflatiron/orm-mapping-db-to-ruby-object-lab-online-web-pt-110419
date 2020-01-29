@@ -91,6 +91,9 @@ class Student
       end.first
   end
 
+  def self.students_in_gradee_X
+  end
+
   def save
     sql = <<-SQL
       INSERT INTO students (name, grade)
